@@ -1,0 +1,170 @@
+<p>Noticias ISIP</p>
+<!-- CARRUSEL CON FLECHAS SIEMPRE VISIBLES -->
+<div style="padding: 20px; background: transparent;">
+ <div style="text-align: center; margin-bottom: 30px;">
+  <h2 style="font-family: Georgia; display: inline-block; background: rgba(255,255,255,0.9); color: #333; margin: 0; padding: 15px 40px; font-size: 2.7rem; font-weight: bold; border-radius: 25px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">Noticias (ISIP)</h2>
+ </div>
+ <div style="padding: 20px;"><!-- Contenedor principal con posición relativa -->
+  <div style="position: relative; padding: 0 60px;" class="contenedor-principal"><!-- Flechas de navegación FUERA del contenedor de scroll --> <button onclick="scrollCarousel(-1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); z-index: 10; background: rgba(255,255,255,0.95); border: 0; width: 45px; height: 45px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.15); font-size: 18px; color: #333;"> &larr; </button> <button onclick="scrollCarousel(1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); z-index: 10; background: rgba(255,255,255,0.95); border: 0; width: 45px; height: 45px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.15); font-size: 18px; color: #333;"> &rarr; </button> <!-- Contenedor del carrusel SIN las flechas dentro -->
+   <div id="newsCarousel" style="display: flex; overflow-x: auto; gap: 16px; padding: 10px 0; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; scroll-behavior: smooth;"><!-- ==================== TARJETA 1 - MÁS NUEVA (08/08/2025) ==================== -->
+    <div style="flex: 0 0 85%; min-width: 85%; background: #fff; border-radius: 16px; padding: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); scroll-snap-align: start;">
+     <h3 style="margin: 0 0 10px 0; font-size: 1.1rem; color: #222; line-height: 1.3;">Estudio con estad&iacute;stica bayesiana</h3>
+     <div style="font-size: 0.9rem; color: #666; margin-bottom: 15px;">08/08/2025 | Santiago Vasco-Moprales, Paola Toapanta-Pinta</div>
+     <!-- iframe contenido -->
+     <div style="margin: 15px 0; border-radius: 8px; overflow: hidden; background: #f5f5f5;"><iframe width="300" height="150" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsantiago.vm2%2Fposts%2Fpfbid0W5i9ESn16LDrBfHNya8Lh6HoZfNTDn9utm2zAU9HaARYatTec6kd8z2ogLTHyFzjl&amp;show_text=true&amp;width=500" scrolling="no" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></div>
+     <h4 style="margin: 15px 0 8px 0; font-size: 0.95rem; color: #444;">Resumen</h4>
+     <p style="margin: 0 0 15px 0; line-height: 1.4; color: #333;">Estudio realizado en el Hospital Gineco-Obst&eacute;trico Isidro Ayora, analiz&oacute; las causas de mortalidad en reci&eacute;n nacidos con gastrosquisis, mediante el uso de an&aacute;lisis estad&iacute;sticos bayesianos.</p>
+     <h4 style="margin: 15px 0 8px 0; font-size: 0.95rem; color: #444;">Palabras clave</h4>
+     <div style="display: flex; flex-wrap: wrap; gap: 6px;"><span style="background: #e3f2fd; color: #1976d2; padding: 4px 8px; border-radius: 12px; font-size: 0.8rem;">Estad&iacute;stica bayesiana</span> <span style="background: #e3f2fd; color: #1976d2; padding: 4px 8px; border-radius: 12px; font-size: 0.8rem;">Resultados perinatales</span> <span style="background: #e3f2fd; color: #1976d2; padding: 4px 8px; border-radius: 12px; font-size: 0.8rem;">Salud p&uacute;blica</span></div>
+     <div style="margin-top: 15px;"><a href="https://andespediatrica.cl/index.php/rchped/article/view/5517?fbclid=IwY2xjawMOKFlleHRuA2FlbQIxMABicmlkETFNOG9Xem5sVzRmM09zaHhJAR7mZXFZqeiD3FUII30alg4SYBuGj-VxrNvD_glac6Eq757MV2VoGSCrikgPnQ_aem_3BYaGVMNIoeBt_P7HJXtwQ" target="_blank" style="color: #1976d2; text-decoration: none; font-weight: 500;">Leer art&iacute;culo</a></div>
+    </div>
+    <!-- ==================== TARJETA 2 - INTERMEDIA (28/05/2025) ==================== -->
+    <div style="flex: 0 0 85%; min-width: 85%; background: #fff; border-radius: 16px; padding: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); scroll-snap-align: start;">
+     <h3 style="margin: 0 0 10px 0; font-size: 1.1rem; color: #222; line-height: 1.3;">Temporal Trends and Associated Factors of Repeat Pregnancy in Ecuadorian Adolescents (2009&ndash;2022)</h3>
+     <div style="font-size: 0.9rem; color: #666; margin-bottom: 15px;">28/05/2025 | Paola Toapanta-Pinta, Mercy Dolores Rosero-Quintana</div>
+     <!-- iframe contenido -->
+     <div style="margin: 0 0 15px 0; border-radius: 8px; overflow: hidden; background: #f5f5f5;"><iframe width="300" height="150" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsantiago.vm2%2Fposts%2Fpfbid0L4i6fc7HHkcHgRx88yEpwcY22i5LWU7CQtj9J5LVrp2DEqPpSM5VY7u51vHz1wePl&amp;show_text=true&amp;width=500" scrolling="no" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+     <h4 style="margin: 15px 0 8px 0; font-size: 0.95rem; color: #444;">Resumen</h4>
+     <p style="margin: 0 0 15px 0; line-height: 1.4; color: #333;">Estudio realizado en el Hospital Gineco-Obst&eacute;trico Isidro Ayora (2009&ndash;2022) analiz&oacute; 6.695 nacimientos de madres adolescentes. El <strong>22,79%</strong> correspondi&oacute; a embarazos repetidos.</p>
+     <h4 style="margin: 15px 0 8px 0; font-size: 0.95rem; color: #444;">Palabras clave</h4>
+     <div style="display: flex; flex-wrap: wrap; gap: 6px;"><span style="background: #e3f2fd; color: #1976d2; padding: 4px 8px; border-radius: 12px; font-size: 0.8rem;">Embarazo adolescente</span> <span style="background: #e3f2fd; color: #1976d2; padding: 4px 8px; border-radius: 12px; font-size: 0.8rem;">Resultados perinatales</span> <span style="background: #e3f2fd; color: #1976d2; padding: 4px 8px; border-radius: 12px; font-size: 0.8rem;">Salud p&uacute;blica</span></div>
+     <div style="margin-top: 15px;"><a href="https://www.medrxiv.org/content/10.1101/2025.05.27.25328420v1" target="_blank" style="color: #1976d2; text-decoration: none; font-weight: 500;">Leer Preprint</a></div>
+    </div>
+    <!-- ==================== TARJETA 3 - MÁS ANTIGUA (27/04/2025) ==================== -->
+    <div style="flex: 0 0 85%; min-width: 85%; background: #fff; border-radius: 16px; padding: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); scroll-snap-align: start;">
+     <h3 style="margin: 0 0 10px 0; font-size: 1.1rem; color: #222; line-height: 1.3;">Premio de investigaci&oacute;n &mdash; Embarazo repetido en la adolescencia</h3>
+     <div style="font-size: 0.9rem; color: #666; margin-bottom: 15px;">27/04/2025 | Paola Toapanta-Pinta, Cristhian Santiago Vasco-Toapanta</div>
+     <p style="margin: 0 0 15px 0; line-height: 1.4; color: #333;">El equipo de Investigaci&oacute;n en Salud Infantil y Perinatal (ISIP) obtuvo el <strong>segundo lugar</strong> en el concurso organizado por la Sociedad Ecuatoriana de Pediatr&iacute;a.</p>
+     <p style="margin: 0 0 15px 0; line-height: 1.4; color: #333;">El an&aacute;lisis retrospectivo evidenci&oacute; que m&aacute;s del 22% de los nacimientos en adolescentes correspondieron a embarazos repetidos.</p>
+     <!-- iframe contenido -->
+     <div style="margin: 15px 0; border-radius: 8px; overflow: hidden; background: #f5f5f5;"><iframe width="300" height="150" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsantiago.vm2%2Fposts%2Fpfbid02wy8JWrVi1H5q2TgDXghCZRsybiZbQv5RWYV1CnvjoWMu8TefuNEYVaykRjFuhMFql&amp;show_text=true&amp;width=320" scrolling="no" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+     <h4 style="margin: 15px 0 8px 0; font-size: 0.95rem; color: #444;">Palabras clave</h4>
+     <div style="display: flex; flex-wrap: wrap; gap: 6px;"><span style="background: #e3f2fd; color: #1976d2; padding: 4px 8px; border-radius: 12px; font-size: 0.8rem;">Embarazo adolescente</span> <span style="background: #e3f2fd; color: #1976d2; padding: 4px 8px; border-radius: 12px; font-size: 0.8rem;">Salud p&uacute;blica</span> <span style="background: #e3f2fd; color: #1976d2; padding: 4px 8px; border-radius: 12px; font-size: 0.8rem;">Factores socioecon&oacute;micos</span></div>
+    </div>
+   </div>
+   <!-- Indicadores -->
+   <div id="indicators" style="display: flex; justify-content: center; gap: 8px; margin-top: 20px;"><!-- Se generan automáticamente por JS --></div>
+  </div>
+ </div>
+ <!-- CSS para scrollbar y responsive -->
+ <style><!--
+  #newsCarousel::-webkit-scrollbar {
+  height: 6px;
+  }
+  #newsCarousel::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.5);
+  border-radius: 3px;
+  }
+  #newsCarousel::-webkit-scrollbar-track {
+  background: transparent;
+  }
+
+  /* TABLET - 2 tarjetas por pantalla */
+  @media (min-width: 768px) {
+  #newsCarousel > div {
+  flex: 0 0 48% !important;
+  min-width: 48% !important;
+  }
+  }
+
+  /* DESKTOP - 3 tarjetas por pantalla */
+  @media (min-width: 1024px) {
+  #newsCarousel > div {
+  flex: 0 0 32% !important;
+  min-width: 32% !important;
+  }
+  }
+
+  /* MÓVIL - Tarjetas más anchas */
+  @media (max-width: 767px) {
+  #newsCarousel > div {
+  flex: 0 0 100% !important;
+  min-width: 100<span id="CmCaReT"></span>% !important;
+  }
+
+  .contenedor-principal {
+  padding: 0 30px !important;
+  }
+  }
+
+  /* Hover effect en las flechas */
+  button:hover {
+  transform: translateY(-50%) scale(1.05) !important;
+  background: rgba(255,255,255,1) !important;
+  }
+  --></style>
+ <!-- JavaScript mejorado -->
+ <script>// <![CDATA[
+  function scrollCarousel(direction) {
+   var carousel = document.getElementById('newsCarousel');
+   if (!carousel) return;
+
+   var cardWidth = carousel.querySelector('div').offsetWidth + 16; // ancho + gap
+   var scrollAmount = cardWidth * direction;
+
+   carousel.scrollBy({
+    left: scrollAmount,
+    behavior: 'smooth'
+   });
+
+   // Actualizar indicadores después del scroll
+   setTimeout(updateIndicators, 300);
+  }
+
+  // Crear indicadores automáticamente
+  function createIndicators() {
+   var carousel = document.getElementById('newsCarousel');
+   var indicators = document.getElementById('indicators');
+   var cards = carousel.querySelectorAll('div');
+
+   cards.forEach(function(_, index) {
+    var dot = document.createElement('span');
+    dot.style.cssText = 'width: 10px; height: 10px; border-radius: 50%; background: rgba(255,255,255,0.5); cursor: pointer; transition: background 0.3s;';
+    if (index === 0) dot.style.background = 'rgba(255,255,255,0.9)';
+
+    dot.onclick = function() {
+     var cardWidth = carousel.querySelector('div').offsetWidth + 16;
+     carousel.scrollTo({
+      left: cardWidth * index,
+      behavior: 'smooth'
+     });
+     setTimeout(updateIndicators, 300);
+    };
+
+    indicators.appendChild(dot);
+   });
+  }
+
+  // Actualizar indicadores activos
+  function updateIndicators() {
+   var carousel = document.getElementById('newsCarousel');
+   var indicators = document.getElementById('indicators');
+   var cardWidth = carousel.querySelector('div').offsetWidth + 16;
+   var currentIndex = Math.round(carousel.scrollLeft / cardWidth);
+
+   Array.from(indicators.children).forEach(function(dot, index) {
+    dot.style.background = index === currentIndex ? 'rgba(255,255,255,0.9)' : 'rgba(255,255,255,0.5)';
+   });
+  }
+
+  // Inicializar cuando carga la página
+  document.addEventListener('DOMContentLoaded', function() {
+   createIndicators();
+
+   // Actualizar indicadores al hacer scroll manual
+   var carousel = document.getElementById('newsCarousel');
+   carousel.addEventListener('scroll', function() {
+    clearTimeout(this.scrollTimer);
+    this.scrollTimer = setTimeout(updateIndicators, 100);
+   });
+  });
+
+  // Fallback si DOMContentLoaded ya pasó
+  if (document.readyState === 'loading') {
+   document.addEventListener('DOMContentLoaded', createIndicators);
+  } else {
+   createIndicators();
+  }
+  // ]]></script>
+</div>
+<p><span></span></p>
